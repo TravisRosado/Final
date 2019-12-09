@@ -1,0 +1,23 @@
+body{
+    padding: 5em;
+    font-family: 'Calistoga', cursive;
+    background-image: url(media/woods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #e6b9f0;
+    height: 100vh;
+}
+
+h1,h2{text-align: center;}
+
+p{
+    line-height: 1.7;
+    width:750px;
+}
+/*The next rule centers and spaces the media*/
+img, video, p{
+    display: block; 
+    margin: 0 auto;
+    padding-bottom: 2em
+}
